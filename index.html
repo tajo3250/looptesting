@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Testing Loops</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <h1>Testing Loops</h1>
+
+  <div class="input-container">
+    <label for="numberInput">Enter the number you are trying to reach:</label>
+    <input type="number" id="numberInput" value="200">
+  </div>
+  <div class="input-container">
+    <label for="startingNumber">Enter the number you want to start with:</label>
+    <input type="number" id="startingNumber" value="100">
+  </div>
+  <div class="input-container">
+    <label for="addInput">Enter the amount you want to add to the number per loop:</label>
+    <input type="number" id="addInput" value="5">
+  </div>
+  <div class="input-container">
+    <label for="decreaseInput">Enter the amount you want to decrease the add amount by each loop (multiply):</label>
+    <input type="number" id="decreaseInput" value="0.9">
+  </div>
+
+  <button onclick="startLoop()">Start Loop</button>
+
+  <div id="log" class="log-container scrollable"></div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
